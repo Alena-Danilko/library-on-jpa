@@ -53,4 +53,48 @@ PATCH /books/{id}/assign - Assign a book to a person.
 
 GET /books/search - Display search form.
 
-POST /books/search - Search book by title.
+### Reader
+GET /people - Get all readers from the database.
+
+GET /people/{id} - Get data about a specific reader and a list of his books.
+
+GET /people/new - Display form to register a new reader.
+
+POST /people - Register a new reader.
+
+GET /people/{id}/edit - Display form to edit a reader.
+
+PATCH /people/{id} - Update information about reader.
+
+DELETE /people/{id} - Delete a reader.
+## Project structure
+### Main code
+src/main/java/com/example - Application source code.
+
+src/main/java/com/example/config - Classes for configuration application.
+
+src/main/java/com/example/controllers - Controller classes for for handling web requests.
+
+src/main/java/com/example/models - Data Models.
+
+src/main/java/com/example/repositories - Repositories for working with the database.
+
+src/main/java/com/example/service - Business logic of the application.
+
+src/main/java/com/example/util - Helper classes for validation.
+
+src/main/resources/application.propertie - Configuration file.
+
+### Testing
+src/main/test/com/example - Tests for the application source code.
+
+src/main/java/com/example/controllersTest - Tests for controller classes.
+
+src/main/java/com/example/modelsTest - Tests for Data Models.
+
+src/main/java/com/example/repositoriesTest - Tests for repositories.
+
+src/main/java/com/example/serviceTest - Tests for business logic.
+
+src/main/java/com/example/utilTest - Tests for helper classes for validation.
+
