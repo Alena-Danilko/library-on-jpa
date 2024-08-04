@@ -6,6 +6,8 @@ The application leverages modern Java technologies including Hibernate and Sprin
 - Reader Registration: Librarians can register new readers into the system.
 - Book Lending: Lend books to registered readers, keeping track of due dates and current holdings.
 - Book Release: Manage the return of books, updating the system accordingly.
+- Book search page: The librarian enters the initial letters of the book title in the field and gets the full title of the book and the author's name.
+- Overdue check: Automatic check to see if a reader has overdue the return of a book.
   
 ## Technologies
 - Java 8+
