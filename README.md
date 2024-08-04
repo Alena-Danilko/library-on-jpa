@@ -83,7 +83,7 @@ src/main/java/com/example/service - Business logic of the application.
 
 src/main/java/com/example/util - Helper classes for validation.
 
-src/main/resources/application.propertie - Configuration file.
+src/main/resources/application.properties - Configuration file.
 
 ### Testing
 src/main/test/com/example - Tests for the application source code.
